@@ -195,8 +195,3 @@ input[type="checkbox"]{
 div.Formulario h2{
     padding: 1rem;
 }
-
-header, main, footer{
-    max-width: 2570px;
-    margin: 0 auto;
-}
