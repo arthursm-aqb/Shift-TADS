@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to left,#7292A6, #224459);
+    color: white;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+main{
+    background-color: white;
+    display: flex;
+}
+
+footer{
+    background-color:#224459;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 7rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+}
+
+div.Itens ul{
+    padding: 3rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #2980B9;
+}
+
+section{
+   display: grid;
+   grid-template-areas: "y f f j" "z a h p" "k a b b";
+   grid-template-rows: 18rem 18rem 18rem;
+   gap: 1rem;
+
+}
+
+nav{
+    background-color: #C8D5DF;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding-right: 2rem;
+}
+
+div.Evento{
+    grid-area: y;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+div.Itens{
+    grid-area: z;
+    font-size: 1.4rem;
+}
+
+div.PalestranteL{
+    grid-area: k;
+}
+
+div.PalestranteA{
+    grid-area: j;
+    
+}
+
+div.PalestranteN{
+    grid-area: h;
+}
+
+div.PalestranteH{
+    grid-area: p;
+}
+
+div.Cronograma{
+    grid-area: f;
+}
+
+div.Cronograma h2{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+div.Formulario{
+    grid-area: a;
+    width: 400px;
+    padding: 2rem;
+}
+
+div.Organizacao{
+    grid-area: b;
+    padding: 3rem;
+}
+
+div.Organizacao ul{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 545;
+    font-size: 1.1rem;
+}
+
+div.Organizacao li, p{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+div{
+    background-color: lightgray;
+    margin: 1rem;
+}
+
+mark{
+    color: #2980B9;
+    background: none;
+    font-weight: bold;
+}
+
+span{
+    border: 2px solid #224459;
+    color: #224459;
+    font-weight: 600;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 1.8rem auto;
+    font-weight: 540;
+    font-size: 1.2rem;
+
+}
+
+ td, th{
+    border: 1.5px solid white;;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+main h2{
+    font-size: 1.8rem;
+}
+
+button{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+
+input[type="checkbox"]{
+    margin-bottom: 2rem;
+}
+div.Formulario h2{
+    padding: 1rem;
+}
+
+header, main, footer{
+    max-width: 2570px;
+    margin: 0 auto;
+}
